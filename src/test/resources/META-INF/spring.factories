@@ -1,0 +1,4 @@
+org.springframework.test.context.ContextCustomizerFactory = com.di.tcp.config.\
+    TestContainersSpringContextCustomizerFactory,com.di.tcp.config.\
+    SqlTestContainersSpringContextCustomizerFactory,com.di.tcp.config.\
+    KafkaTestContainersSpringContextCustomizerFactory
